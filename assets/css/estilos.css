@@ -1,0 +1,47 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    display: grid;
+    grid-template-areas: 'header header header'
+                          'main main main'
+                          'main main main'
+                          'main main main'
+                          'main main main'
+                          'footer footer footer';
+ min-height: 100vh;
+                        
+}
+    
+header {
+    grid-area: header;
+    background-color:gray;
+    height: 100px;
+}
+
+main {
+    grid-area: main;
+    background-color: chocolate;
+    grid-template-rows: 100% 100% 100%;
+}
+
+#Jumbotron { background-color: blueviolet;
+    height: 500px;
+}
+
+#Blog { background-color: chartreuse;
+    height: 300px;
+}
+
+#adicionales { background-color: blue;
+    height: 300px;
+}
+
+
+footer {
+    grid-area: footer;
+    background-color: darkcyan;
+    height: 100px;
+}
