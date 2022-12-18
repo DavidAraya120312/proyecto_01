@@ -34,16 +34,18 @@ main {
 }
 
 #Blog { background-color: rgb(0, 0, 0);
-    height: 900px;
+    height: 700px;
 }
 
-#adicionales { background-color: blue;
-    height: 400px;
+#adicionales { background-color: white;
+    height: 1550px;
+    
+    
 }
 
 
 footer {
     grid-area: footer;
-    background-color: darkcyan;
-    height: 400px;
+    background-color:whitesmoke;
+    height: 300px;
 }
