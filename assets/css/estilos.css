@@ -38,12 +38,15 @@ main {
 }
 
 #adicionales { background-color: white;
-    height: 1550px;
-    
+   /* height: 1550px;*/
+   
     
 }
 
+#imagen1 { height: 100px;
+    width: 100px;
 
+}
 footer {
     grid-area: footer;
     background-color:whitesmoke;
