@@ -43,6 +43,21 @@ main {
     display: flex;
 }
 
+.imagen1 {
+    height: 300px;
+    width: 500px;
+}
+
+.imagen2 {
+    height: 300px;
+    width: 500px;
+}
+
+.imagen3 {
+    height: 300px;
+    width: 500px;
+}
+
 .content_footer{
 margin: 40px;
 }
