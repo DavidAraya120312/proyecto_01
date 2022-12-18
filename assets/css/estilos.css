@@ -12,10 +12,8 @@ body {
                           'main main main'
                           'footer footer footer';
  min-height: 100vh;
-                        
 }
 
-    
 header {
     grid-area: header;
     background-color:white;
@@ -24,7 +22,7 @@ header {
 
 main {
     grid-area: main;
-    background-color: chocolate;
+    background-color: rgb(255, 255, 255);
     grid-template-rows: 100% 100% 100%;
 }
 
@@ -33,22 +31,40 @@ main {
     
 }
 
-#Blog { background-color: rgb(0, 0, 0);
-    height: 700px;
+    #Blog { background-color: white;
+    height: 820px;
 }
 
 #adicionales { background-color: white;
    /* height: 1550px;*/
-   
-    
 }
 
-#imagen1 { height: 100px;
-    width: 100px;
+.content_image {
+    display: flex;
+}
 
+.content_footer{
+margin: 40px;
+}
+.title_footer{
+    margin-left: 15px;
+    font-size: 22px;
 }
 footer {
     grid-area: footer;
     background-color:whitesmoke;
     height: 300px;
+}
+.content_modelo{
+  text-align: center;
+} 
+.modelo{
+  font-size: 140px;
+  text-decoration: underline;
+}
+
+
+
+.content_space {
+    height: 100px;
 }
